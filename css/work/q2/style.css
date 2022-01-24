@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+.table_all {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  padding: 10px;
+}
+
+.table_all  td,th{
+  border: 1px solid #dedede;
+}
+
+.table_all td:not(.date)  {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.table_all th {
+  color: #ecf1f2;
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 10px;
+}
+
+.table_body tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.table_body tr:last-child {
+  border-top: 2px dashed #000
+}
+
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
