@@ -7,11 +7,11 @@
   padding: 10px;
 }
 
-.table_all  td,th{
+.table_all  td,.table_all th {
   border: 1px solid #dedede;
 }
 
-.table_all td:not(.date)  {
+.table_all td {
   font-size: 16px;
   line-height: 22px;
 }
